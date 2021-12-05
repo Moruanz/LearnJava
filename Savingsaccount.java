@@ -30,12 +30,15 @@ public class SavingsAccount {
 
   public static void main(String[] args){
     SavingsAccount savings = new SavingsAccount(2000);
-    System.out.println(savings);
+    
     
     // Check Balance function
     savings.checkBalance();
     // Deposit 2000
     savings.deposit(2000);
+    // withdraw 600
+    savings.withdraw(500);
 
+    System.out.println(savings);
   }       
 }

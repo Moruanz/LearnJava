@@ -1,6 +1,6 @@
 // The concept of bitwise operation
 
-public class BitwiseOperator {
+public class BitwiseOperator1 {
 	//insert main
 	public static void main(String[] args){
 

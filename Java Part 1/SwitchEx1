@@ -1,0 +1,30 @@
+// Demonstrate the usage of switch
+// need to import java.util to use scanner
+
+import java.util.Scanner;
+
+
+public class SwitchEx1 {
+	//insert main
+	public static void main(String[] args){
+
+	Scanner myScanner = new Scanner(System.in);
+	System.out.println("Please enter a letter from a to g");
+	char c1 = myScanner.next().charAt(0);
+
+	switch(c1) {
+		case 'a' : 
+			System.out.println("This is Monday");
+			break;
+		case 'b' : 
+			System.out.println("This is Tuesday");
+			break;
+		case 'c' : 
+			System.out.println("This is Wednsday");
+			break;
+		default:
+			System.out.println("No match, try again later");
+		}
+	System.out.println("Programme exit");
+}	
+}
